@@ -9,8 +9,8 @@
   font-family: 'DM Sans';
   color: #FFFFFF;
   font-style: normal;
-  /* width: 100%; */
-  padding: 20px 0 0 70px;
+  width: 100%;
+  padding: 20px 140px 0 140px;
 }
 
 .sub-container {
@@ -21,7 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
 }
 
 .additional-info>span {
@@ -35,7 +34,7 @@
 
 .author-description {
   display: flex;
-  gap: 400px;
+  gap: 200px;
   align-items: center;
   margin: 100px 0 0 70px;
 }
@@ -158,8 +157,10 @@ div>.specialty {
 
 .what-i-do {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 70px; 
+  grid-template-columns: repeat(3, 200px);
+  justify-content: start;
+  grid-column-gap: 300px;
+  margin-left: 70px;
 }
 
 
@@ -199,11 +200,12 @@ div>.specialty {
 
 .skill-level {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: #333;
   border: 1px solid  #333;
   height: 200px;
+  width: 101%;
 }
 
 
@@ -267,7 +269,6 @@ textarea {
 button {
   display: block;
   margin: 30px auto;
-  /* margin-left: 470px; */
   background-color: #27AE60;
   padding: 12px 33px;
   border: none;
