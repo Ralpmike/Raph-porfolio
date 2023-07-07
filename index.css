@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -33,13 +34,16 @@ body {
 span:hover {
   border-bottom: 2px solid #D4A373;
   cursor: pointer;
-  background-color: hsla(30, 79%, 82%, .5);
 }
 
 
 a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+span a:hover {
+  color: #D4A373;
 }
 
 .author-check {
